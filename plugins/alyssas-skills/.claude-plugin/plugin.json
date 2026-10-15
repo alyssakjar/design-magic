@@ -1,0 +1,9 @@
+{
+  "name": "alyssas-skills",
+  "description": "A curated collection of agent skills for Claude Code — design, frontend, animation, accessibility, engineering workflows and content. Assembled from damilareoo/damilares-skills and the upstream authors credited in NOTICE.md.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Alyssa Kjar",
+    "url": "https://github.com/alyssakjar"
+  }
+}
