@@ -9,7 +9,7 @@
     {
       "name": "alyssas-skills",
       "source": "./plugins/alyssas-skills",
-      "description": "138 skills across design, frontend, animation, accessibility, engineering workflows and content."
+      "description": "34 skills for design direction, interface craft, accessibility, motion and engineering workflow. Copied from damilareoo/damilares-skills and pruned to what suits a Next.js portfolio; see NOTICE.md for provenance."
     }
   ]
 }
