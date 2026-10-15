@@ -36,7 +36,7 @@ claude plugin marketplace update alyssas-skills
 ### Or copy the skills straight in
 
 ```bash
-git clone --depth 1 git@github.com:alyssakjar/alyssas-skills.git /tmp/alyssas-skills-install && rsync -a --exclude='.git' /tmp/alyssas-skills-install/plugins/alyssas-skills/skills/ ~/.claude/skills/ && rm -rf /tmp/alyssas-skills-install
+git clone --depth 1 https://github.com/alyssakjar/alyssas-skills.git /tmp/alyssas-skills-install && rsync -a --exclude='.git' /tmp/alyssas-skills-install/plugins/alyssas-skills/skills/ ~/.claude/skills/ && rm -rf /tmp/alyssas-skills-install
 ```
 
 Add `--delete` to the `rsync` when updating, to clear out skills that have since been
