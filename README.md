@@ -1,6 +1,6 @@
 # alyssas-skills
 
-34 skills for [Claude Code](https://docs.claude.com/en/docs/claude-code), weighted
+35 skills for [Claude Code](https://docs.claude.com/en/docs/claude-code), weighted
 heavily toward design: visual direction, interface craft, typography and colour,
 accessibility, motion, and copy. The rest are working practices — test-driven
 development, bug diagnosis, module design, merge conflicts — that apply to any
@@ -160,8 +160,11 @@ Works an in-progress merge or rebase hunk by hunk: recover each side's original 
 **`handoff`** · [Matt Pocock](https://github.com/mattpocock/skills)  
 Writes a handoff document so a fresh agent can pick the work up, saved outside the workspace, pointing at existing specs, plans and commits rather than restating them, with secrets redacted and a note on which skills the next agent should call.
 
+**`grilling`** · [Matt Pocock](https://github.com/mattpocock/skills)  
+Stress-tests a plan or decision by interviewing you until nothing is left silently assumed. It maps the work as a design tree and asks it in rounds — every question whose prerequisites are already settled, numbered, each with its recommended answer — then recomputes what is answerable from your replies. Facts it looks up itself; decisions it puts to you.
+
 **`grill-me`** · [Matt Pocock](https://github.com/mattpocock/skills)  
-A relentless interview that stress-tests a plan or design before you commit to it, by arguing with its premises rather than tidying its wording.
+The user-invoked entry point to `grilling`, for when you want to be grilled on demand rather than waiting for the model to decide a plan needs it.
 
 **`fixing-metadata`** · [@damilareoo](https://github.com/damilareoo)  
 A constraints checklist for page metadata. Apply it while working on metadata, or run it against a file to get each gap or error quoted with why it matters.
