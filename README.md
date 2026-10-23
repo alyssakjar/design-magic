@@ -1,7 +1,7 @@
 # design-magic
 
 35 skills for [Claude Code](https://docs.claude.com/en/docs/claude-code), weighted
-heavily toward design: visual direction, interface craft, typography and colour,
+heavily toward design: visual direction, interface craft, typography and color,
 accessibility, motion, and copy. The rest are working practices — test-driven
 development, bug diagnosis, module design, merge conflicts — that apply to any
 codebase.
@@ -63,14 +63,14 @@ Skills that decide what an interface should look like and hold it to that decisi
 | `emil-design-eng` | Emil Kowalski's philosophy on UI polish, component design, animation decisions and the invisible details that make software feel considered rather than assembled. |
 | `ui-ux-pro-max` | A broad UI/UX reference carrying 50 styles, 21 palettes, 50 font pairings and 20 chart types, with patterns for nine stacks including React, Next.js, Tailwind and shadcn/ui. Covers planning, building and reviewing a screen, and can query the shadcn/ui MCP for components and examples. |
 
-### Typography and colour
+### Typography and color
 
 The two token layers that most decide whether a site reads as designed.
 
 | Skill | What it does |
 |---|---|
 | `better-typography` | Web typography end to end: choosing and pairing typefaces, woff2 and variable fonts, OpenType feature settings, type scales, heading hierarchy, line height, letter spacing and measure, tabular numbers, text wrapping and line clamping, underlines, selection and placeholder styling, text contrast, iOS input zoom, and smart punctuation. |
-| `better-colors` | OKLCH colour for the web: converting from hex, rgb or hsl, generating palettes, checking contrast ratios, handling gamut boundaries and Display P3, theming with Tailwind v4 semantic tokens, and using colour to carry meaning across light, dark and increased-contrast appearances. |
+| `better-colors` | OKLCH color for the web: converting from hex, rgb or hsl, generating palettes, checking contrast ratios, handling gamut boundaries and Display P3, theming with Tailwind v4 semantic tokens, and using color to carry meaning across light, dark and increased-contrast appearances. |
 
 ### Accessibility
 
@@ -101,7 +101,7 @@ Interface copy, marketing copy, and documents written to be read by agents.
 
 | Skill | What it does |
 |---|---|
-| `better-writing` | UX writing and interface copy: voice and tone, button and link labels, form error messages, placeholder text, settings labels, onboarding flows, notifications and empty states, plus capitalisation conventions like title versus sentence case. |
+| `better-writing` | UX writing and interface copy: voice and tone, button and link labels, form error messages, placeholder text, settings labels, onboarding flows, notifications and empty states, plus capitalization conventions like title versus sentence case. |
 | `copywriting-skill` | Marketing and product copy — headlines, hero text, taglines, about sections and any written content for a website, app, poster or brand. |
 | `writing-for-agents` | How to write documents an agent will actually follow, whether a skill, an `AGENTS.md` or a `CLAUDE.md`. Covers context pointers, why a skill's description wording rather than its body decides when it triggers, and how hard to prune text that loads on every turn. |
 
@@ -111,7 +111,7 @@ Agent-agnostic working practices, plus two repo guardrails.
 
 | Skill | What it does |
 |---|---|
-| `tdd` | The red-green-refactor loop, with the part that makes tests worth keeping: verifying behaviour through public interfaces rather than internals, agreeing the seams under test before writing anything, and the anti-patterns to avoid. Defers to `codebase-design` for interface vocabulary. |
+| `tdd` | The red-green-refactor loop, with the part that makes tests worth keeping: verifying behavior through public interfaces rather than internals, agreeing the seams under test before writing anything, and the anti-patterns to avoid. Defers to `codebase-design` for interface vocabulary. |
 | `codebase-design` | Shared vocabulary for designing deep modules — module, interface, depth, seam, adapter, leverage, locality. Use it to design or improve a module's interface, decide where a seam belongs, or make code more testable. A reference to consult, not a workflow to run. |
 | `diagnosing-bugs` | A diagnosis discipline for hard bugs and performance regressions, built around earning a tight pass/fail signal first and only then spending it on bisection, hypothesis testing and instrumentation. Redacts secrets from anything it surfaces. |
 | `research` | Investigates a question against high-trust primary sources and captures the findings as a Markdown file in the repo. Suited to delegating reading legwork to a background agent. |
@@ -139,10 +139,12 @@ plugins/design-magic/
 The marketplace entry name, the plugin manifest name and the plugin directory name
 must all stay `design-magic`, or installs fail confusingly.
 
-## Licence
+## License
 
-Almost none of this is my own work — each skill's `author` field names who wrote it.
-The collection was assembled from
-[damilareoo/damilares-skills](https://github.com/damilareoo/damilares-skills), which
-carries no licence, so **this repository is private and should stay that way**. See
-[NOTICE.md](NOTICE.md).
+These skills were written by other people — each one's `author` field names who. Many
+carry a license of their own, declared in the skill itself; some carry none at all.
+Check the individual skill before reusing it anywhere, because the terms differ from
+skill to skill.
+
+This repository is private and should stay that way: these licenses are not mine to
+re-grant. See [NOTICE.md](NOTICE.md).

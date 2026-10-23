@@ -9,7 +9,7 @@
     {
       "name": "design-magic",
       "source": "./plugins/design-magic",
-      "description": "35 skills for Claude Code, weighted toward design: visual direction, interface craft, typography and colour, accessibility, motion and copy, plus agent-agnostic engineering practices."
+      "description": "35 skills for Claude Code, weighted toward design: visual direction, interface craft, typography and color, accessibility, motion and copy, plus agent-agnostic engineering practices."
     }
   ]
 }
