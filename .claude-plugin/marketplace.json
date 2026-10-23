@@ -1,14 +1,14 @@
 {
-  "name": "alyssas-skills",
-  "description": "Alyssa's curated agent skills for Claude Code.",
+  "name": "design-magic",
+  "description": "Design-led agent skills for Claude Code.",
   "owner": {
     "name": "Alyssa Kjar",
     "url": "https://github.com/alyssakjar"
   },
   "plugins": [
     {
-      "name": "alyssas-skills",
-      "source": "./plugins/alyssas-skills",
+      "name": "design-magic",
+      "source": "./plugins/design-magic",
       "description": "35 skills for Claude Code, weighted toward design: visual direction, interface craft, typography and colour, accessibility, motion and copy, plus agent-agnostic engineering practices."
     }
   ]

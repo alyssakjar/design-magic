@@ -1,4 +1,4 @@
-# alyssas-skills
+# design-magic
 
 35 skills for [Claude Code](https://docs.claude.com/en/docs/claude-code), weighted
 heavily toward design: visual direction, interface craft, typography and colour,
@@ -14,7 +14,7 @@ and so changes are versioned rather than copied around.
 ### Copy them into your skills directory
 
 ```bash
-git clone --depth 1 https://github.com/alyssakjar/alyssas-skills.git /tmp/alyssas-skills-install && rsync -a --exclude='.git' /tmp/alyssas-skills-install/plugins/alyssas-skills/skills/ ~/.claude/skills/ && rm -rf /tmp/alyssas-skills-install
+git clone --depth 1 https://github.com/alyssakjar/design-magic.git /tmp/design-magic-install && rsync -a --exclude='.git' /tmp/design-magic-install/plugins/design-magic/skills/ ~/.claude/skills/ && rm -rf /tmp/design-magic-install
 ```
 
 Skills load at session start, so open a new session afterwards. They arrive
@@ -25,21 +25,21 @@ for name collisions first if `~/.claude/skills` is not empty.
 ### Or install as a plugin
 
 The repository root is also a plugin marketplace, which namespaces the skills as
-`/alyssas-skills:<name>` and lets you pull updates with one command. This route needs
+`/design-magic:<name>` and lets you pull updates with one command. This route needs
 the `claude` CLI on your PATH; the desktop app bundles its own copy and does not
 install one.
 
 ```bash
-claude plugin marketplace add alyssakjar/alyssas-skills
+claude plugin marketplace add alyssakjar/design-magic
 ```
 
 ```bash
-claude plugin install alyssas-skills@alyssas-skills
+claude plugin install design-magic@design-magic
 ```
 
 Because the repository is private, the machine needs git access to it — an
 authenticated `gh` or an SSH key on the account. Later updates come from
-`claude plugin marketplace update alyssas-skills`.
+`claude plugin marketplace update design-magic`.
 
 ## The skills
 
@@ -174,20 +174,20 @@ Installs Claude Code hooks that block destructive git commands — `push`, `rese
 
 ## Adding a skill
 
-One directory per skill under `plugins/alyssas-skills/skills/<name>/`, holding a
+One directory per skill under `plugins/design-magic/skills/<name>/`, holding a
 `SKILL.md` with `name` and `description` in its frontmatter. The description is what
 decides when the skill triggers, so it is worth more care than the body — `/writing-for-agents`
 covers how to word it. Add the skill to the list above with its author, and push.
 
 ```
 .claude-plugin/marketplace.json          the marketplace (repo root)
-plugins/alyssas-skills/
+plugins/design-magic/
 ├── .claude-plugin/plugin.json           the plugin manifest
 └── skills/<skill-name>/SKILL.md         the skills
 ```
 
 The marketplace entry name, the plugin manifest name and the plugin directory name
-must all stay `alyssas-skills`, or installs fail confusingly.
+must all stay `design-magic`, or installs fail confusingly.
 
 ## Licence
 
