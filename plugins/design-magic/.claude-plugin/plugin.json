@@ -1,7 +1,7 @@
 {
   "name": "design-magic",
   "description": "35 skills for Claude Code, weighted toward design: visual direction, interface craft, typography and color, accessibility, motion and copy, plus agent-agnostic engineering practices.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Alyssa Kjar",
     "url": "https://github.com/alyssakjar"

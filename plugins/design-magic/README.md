@@ -147,4 +147,4 @@ Check the individual skill before reusing it anywhere, because the terms differ 
 skill to skill.
 
 This repository is private and should stay that way: these licenses are not mine to
-re-grant. See [NOTICE.md](NOTICE.md).
+re-grant. See [NOTICE.md](https://github.com/alyssakjar/design-magic/blob/main/NOTICE.md).
