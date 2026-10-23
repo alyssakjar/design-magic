@@ -1,5 +1,6 @@
 ---
 name: fixing-metadata
+author: "damilareoo <https://github.com/damilareoo>"
 description: Ship correct, complete metadata.
 ---
 

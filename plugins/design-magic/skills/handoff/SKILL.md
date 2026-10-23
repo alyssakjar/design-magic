@@ -1,5 +1,6 @@
 ---
 name: handoff
+author: "Matt Pocock <https://github.com/mattpocock/skills>"
 description: Compact the current conversation into a handoff document for another agent to pick up.
 argument-hint: "What will the next session be used for?"
 disable-model-invocation: true

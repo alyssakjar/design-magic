@@ -1,5 +1,6 @@
 ---
 name: review-animations
+author: "damilareoo <https://github.com/damilareoo>"
 description: Reviews animation and motion code against a high craft bar derived from Emil Kowalski's design engineering philosophy. Default to flagging; approval is earned.
 disable-model-invocation: true
 ---

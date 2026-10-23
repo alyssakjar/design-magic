@@ -1,5 +1,6 @@
 ---
 name: interface-craft
+author: "Josh Puckett <https://github.com/jpuckett>"
 description: "Interface Craft by Josh Puckett — a toolkit for building polished, animated interfaces in React. Includes Storyboard Animation (human-readable animation DSL with stage-driven sequencing), DialKit (live control panels for tuning animation values), and Design Critique (systematic UI review based on Josh Puckett's methodology). Triggers on: animate, animation, transition, storyboard, entrance, motion, spring, easing, timing, dialkit, sliders, controls, tune, tweak, critique, review, feedback, audit, improve, polish, refine, redesign."
 argument-hint: "[description, file path, or sub-skill name]"
 ---

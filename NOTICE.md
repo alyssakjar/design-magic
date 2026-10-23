@@ -1,8 +1,11 @@
 # Licence and attribution
 
-This is a private, personal collection. Almost none of it is my own work: every skill
-in [README.md](README.md) names its author, and those names are the attribution that
-matters. The skills' own contents are unmodified from upstream.
+This is a private, personal collection. Almost none of it is my own work: every
+`SKILL.md` carries an `author` field naming who wrote it, and that is the attribution
+that matters.
+
+Adding that field is the only change made to any skill — one line in the frontmatter.
+Skill bodies, and their `name` and `description`, are untouched from upstream.
 
 The collection was assembled from
 [damilareoo/damilares-skills](https://github.com/damilareoo/damilares-skills), curated

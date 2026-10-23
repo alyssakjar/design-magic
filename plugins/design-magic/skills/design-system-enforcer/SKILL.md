@@ -1,5 +1,6 @@
 ---
 name: design-system-enforcer
+author: "damilareoo <https://github.com/damilareoo>"
 description: |
   Enforces visual system consistency across every section of a landing page or marketing site. Use this skill BEFORE writing any new section component and AFTER completing one — it ensures architectural lines, system shapes, background patterns, and creative product illustrations carry through the entire page, not just the hero. Trigger this skill whenever you're building landing pages, marketing sites, section components, or any front-end layout where a design system or visual language exists. Also use it when the user mentions "visual consistency", "design system", "architectural lines", "system components", or complains that sections look "generic", "plain", or "like every other SaaS site."
 ---

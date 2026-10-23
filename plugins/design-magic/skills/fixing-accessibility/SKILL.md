@@ -1,5 +1,6 @@
 ---
 name: fixing-accessibility
+author: "damilareoo <https://github.com/damilareoo>"
 description: Fix accessibility issues.
 ---
 

@@ -1,5 +1,6 @@
 ---
 name: interaction-design
+author: "damilareoo <https://github.com/damilareoo>"
 description: Design and implement microinteractions, motion design, transitions, and user feedback patterns. Use when adding polish to UI interactions, implementing loading states, or creating delightful user experiences.
 ---
 

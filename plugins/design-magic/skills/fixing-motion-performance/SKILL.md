@@ -1,5 +1,6 @@
 ---
 name: fixing-motion-performance
+author: "damilareoo <https://github.com/damilareoo>"
 description: Fix animation performance issues.
 ---
 

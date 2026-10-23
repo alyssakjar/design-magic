@@ -1,5 +1,6 @@
 ---
 name: copywriting-skill
+author: "damilareoo <https://github.com/damilareoo>"
 description: Use when writing any copy for a website, landing page, app, poster, brand, or marketing material. Activates on requests like "write copy", "write headline", "write hero text", "write about section", "write tagline", or any request to produce written content for a visual or digital product.
 ---
 

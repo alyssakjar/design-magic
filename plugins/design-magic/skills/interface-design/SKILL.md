@@ -1,5 +1,6 @@
 ---
 name: interface-design
+author: "damilareoo <https://github.com/damilareoo>"
 description: This skill is for interface design — dashboards, admin panels, apps, tools, and interactive products. NOT for marketing design (landing pages, marketing sites, campaigns).
 ---
 

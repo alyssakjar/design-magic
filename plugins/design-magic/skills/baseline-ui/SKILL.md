@@ -1,5 +1,6 @@
 ---
 name: baseline-ui
+author: "damilareoo <https://github.com/damilareoo>"
 description: Enforces an opinionated UI baseline to prevent AI-generated interface slop.
 ---
 

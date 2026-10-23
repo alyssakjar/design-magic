@@ -1,5 +1,6 @@
 ---
 name: 12-principles-of-animation
+author: "raphael-salaja <https://github.com/raphaelsalaja>"
 description: Audit animation code against Disney's 12 principles adapted for web. Use when reviewing motion, implementing animations, or checking animation quality. Outputs file:line findings.
 license: MIT
 metadata:

@@ -1,5 +1,6 @@
 ---
 name: resolving-merge-conflicts
+author: "Matt Pocock <https://github.com/mattpocock/skills>"
 description: "Use when you need to resolve an in-progress git merge/rebase conflict."
 ---
 
